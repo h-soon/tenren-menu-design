@@ -147,6 +147,9 @@ p {
   background-color: #F7F4E3;
   border-radius: 20px;
   text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
@@ -156,10 +159,11 @@ p {
 
 .english-name {
   font-family: Nunito Sans, Arial;
+  font-weight: 300;
 }
 
 .chinese-name {
-  font-family: Noto Sans TC;
+  font-family: Noto Serif TC;
   color: #E61E25;
-  font-size: 20px;
+  font-size: 25px;
 }
