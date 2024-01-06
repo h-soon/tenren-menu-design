@@ -136,6 +136,35 @@ p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+.item:hover {
+  background-color: #FFD842;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1E5724;
+  box-sizing: border-box;
+  height: 370px;
+  cursor: pointer;
+
+  .label {
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: #1E5724;
+  }
+  .english-name {
+    color: #F7F4E3;
+  }
+  .chinese-name {
+    color:#FFD842;
+  }
+}
+
+.item:active {
+  margin-left: 45px;
+  margin-right: 55px;
+  margin-top: -10px;
+
+}
+
 .drink-image {
   height: 220px;
   object-fit: cover;
